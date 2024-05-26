@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>All Products-HypeGear | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/HypeGearLogo.png" width="135px" />
+        </div>
+        <nav>
+          <ul id="menuitems">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img src="./images/cart.png" width="30px" height="30px" />
+        </a>
+        <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+          <option>Default Shorting</option>
+          <option>Short by price</option>
+          <option>Short by popularity</option>
+          <option>Short by rating</option>
+          <option>Short by sale</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-1.jpg" />
+          <h4>Puma zip-front Hoodie</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-o"></span>
+            <span class="fa fa-star-o"></span>
+          </div>
+          <p>₹3,120.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-2.jpg" />
+          <h4>Nike G.T. Jump 2 EP</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-o"></span>
+          </div>
+          <p>₹16,995.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-3.jpg" />
+          <h4>Samsung Galaxy Watch5</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <p>₹26,999.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-4.jpg" />
+          <h4>PUMA x one8 Signature</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-half-o"></span>
+          </div>
+          <p>₹5,999.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/Latest_product-1.jpg" />
+          <h4>Nike Solo Swoosh Men's French</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-o"></span>
+            <span class="fa fa-star-o"></span>
+          </div>
+          <p>₹4,395.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/Latest_product-2.jpg" />
+          <h4>Adidas Wide Leg Track Pants</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-half-o"></span>
+          </div>
+          <p>₹7,599.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/Latest_product-3.jpg" />
+          <h4>Nike Air Max Alpha Trainer 5</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-o"></span>
+          </div>
+          <p>₹7,495.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/Latest_product-4.jpg" />
+          <h4>Apple Watch Ultra [GPS + Cellular 49 mm]</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-o"></span>
+          </div>
+          <p>₹82,999.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/Latest_product-5.jpg" />
+          <h4>Samsung Galaxy Watch6 Bluetooth 44mm</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-o"></span>
+          </div>
+          <p>₹32,999.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/Latest_product-6.jpg" />
+          <h4>Adidas Ultra 4DFWD</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-o"></span>
+          </div>
+          <p>₹22,999.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/Latest_product-7.jpg" />
+          <h4>MONCLER X ADIDAS Baseball Cap</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <p>₹79,999.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/Latest_product-8.jpg" />
+          <h4>Adidas 4D Quarter Socks</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-o"></span>
+          </div>
+          <p>₹1,499.00</p>
+        </div>
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!-----footer------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App For Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="./images/play-store.png" />
+              <img src="./images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./images/HypeGearLogo.png" />
+            <p>
+              Our purpose is to sustainably make the pleasure and benefits of
+              sports accessible to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links:</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us:</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="Copyright">Copyright 2024-Subham Das</p>
+      </div>
+    </div>
+    <!-----------js for toggle menu------->
+    <script>
+      var menuitems = document.getElementById("menuitems");
+      menuitems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (menuitems.style.maxHeight == "0px") {
+          menuitems.style.maxHeight = "200px";
+        } else {
+          menuitems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
